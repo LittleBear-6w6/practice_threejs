@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "three": "^0.150.1"
+  },
+  "name": "practice_threejs",
+  "description": "Playing 3D programing with three.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleBear-6w6/practice_threejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LittleBear-6w6/practice_threejs/issues"
+  },
+  "homepage": "https://github.com/LittleBear-6w6/practice_threejs#readme"
+}
