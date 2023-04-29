@@ -47,6 +47,9 @@ const init = () => {
   scene.add(mesh);
   scene.add(mesh2);
   scene.add(light);
+  // 座標軸を挿入　x:Red y:green z:blue
+  scene.add(new THREE.AxesHelper(30));
+
 
   render.render(scene, camera);
 };
