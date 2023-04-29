@@ -13,6 +13,10 @@ Playing 3D programing with three.js
 
 Hands on 3D programing with reference to 「Canvas 上で 3D モデルが動く！ three.js でお手軽 3D プログラミング」 series 1 in Software Design.
 
+# Execute
+
+Type `$ nmp run dev` on console.
+
 # Referance
 
 1. 可児 亘氏著、「Canvas 上で 3D モデルが動く！ three.js でお手軽 3D プログラミング」、Software Design、技術評論社
