@@ -13,6 +13,12 @@ Playing 3D programing with three.js
 
 Hands on 3D programing with reference to 「Canvas 上で 3D モデルが動く！ three.js でお手軽 3D プログラミング」 series 1 in Software Design.
 
+# Preparetion
+
+1. Initialize project : `$npm init -y`
+1. Install the newest three.js:`$npm install three`
+1. Install building tool Parcel:`$npm install parcel-bundler`
+
 # Execute
 
 Type `$ nmp run dev` on console.
