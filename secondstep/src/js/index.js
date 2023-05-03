@@ -29,17 +29,26 @@ const init = () => {
 
 // -------- 複数メッシュのグループ化 ------------
   const geometry = new THREE.BoxGeometry(1, 1, 1);
+  const geometry2 = new THREE.RingGeometry(1,2,5);
   const material = new THREE.MeshPhongMaterial({
     color: "#ffffff",
   });
+  const material2 = new THREE.MeshPhongMaterial({
+    color: "#FF7D81",
+  });
+  
   const meshA = new THREE.Mesh(geometry,material);
   meshA.scale.set(2,0.1,0.1);
   const meshB = new THREE.Mesh(geometry,material);
   meshB.scale.set(0.1,2,0.1);
 
+  const meshC = new THREE.Mesh(geometry2,material2);
+  meshC.scale.set(0.5,0.5,0.5);
+
   const group = new THREE.Group();
   group.add(meshA);
   group.add(meshB);
+  group.add(meshC);
 
   group.rotation.x = Math.PI * 0.2;
   group.rotation.y = Math.PI * 0.25;
